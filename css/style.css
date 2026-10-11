@@ -7,6 +7,7 @@
   --muted: #777872;
   --line: #deded7;
   --accent: #c36a45;
+  --accent-active: #a84f30;
   --accent-soft: #f1e0d7;
   --header: rgba(247, 246, 242, 0.88);
   --shadow: 0 22px 65px rgba(33, 31, 26, 0.12);
@@ -27,6 +28,7 @@
   --muted: #aaa9a1;
   --line: #a7a8a6;
   --accent: #e19470;
+  --accent-active: var(--accent);
   --accent-soft: #392920;
   --header: rgba(23, 24, 23, 0.9);
   --shadow: 0 22px 65px rgba(0, 0, 0, 0.3);
@@ -664,7 +666,7 @@ a {
 }
 
 .slide-dots button.active {
-  background: var(--accent);
+  background: var(--accent-active);
   transform: scale(1.2);
 }
 
